@@ -64,8 +64,9 @@ public class FileService implements FileServiceInterface {
 				
 				/**************************************************************/
 				
-				list.add(fileMap);				
+				list.add(fileMap);
 				
+				System.out.println(list);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
