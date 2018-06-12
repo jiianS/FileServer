@@ -9,7 +9,7 @@
 	insert into files 
 		(boardNo, fileName, fileURL, userNo, regDate)
 	values
-		(#{boardNo},#{fileName},#{fileURL},#{userNo},DATE_FORMAT(NOW(),'%Y%m%d'))
+		(#{boardNo}, #{fileName}, #{fileURL}, #{userNo}, DATE_FORMAT(NOW(),'%Y%m%d'))
 	
 	</insert>
 </mapper>

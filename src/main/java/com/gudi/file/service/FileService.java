@@ -40,8 +40,7 @@ public class FileService implements FileServiceInterface {
 //				String path = "D:/GDJ10/IDE/workspace/FileServer/src/main/webapp/resources/" + dir + "/";
 				String path = "/var/www/html/resources/" + dir + "/";	//리눅스의 웹서버 -> 아파치가 갖고 있는 절대경로
 //				String path = req.getSession().getServletContext().getRealPath("/") + "resources/" + dir + "/";
-				//String dns = "http://gudi.iptime.org:10010/";	// 내가 올리고자하는 주소_부여받은 주소!
-				String dns = "http://gudi.iptime.org:10012/";	// 내가 올리고자하는 주소_부여받은 주소!
+				String dns = "http://gudi.iptime.org:10010/";	// 내가 올리고자하는 주소_부여받은 주소!
 				
 				File dirF = new File(path);
 				
