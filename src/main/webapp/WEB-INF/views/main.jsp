@@ -9,7 +9,7 @@
 </h1>
 
 
-	<!-- bean에 추가한multipartResolver (파일 업로드) 하기 위해 쓰겠다
+<!-- 	<!-- bean에 추가한multipartResolver (파일 업로드) 하기 위해 쓰겠다
 		파일 업로드 하기에는 무조건 작성해야함
 		(enctype="multipart/form-data" method="post")
 	-->
@@ -19,7 +19,7 @@
 	</form>
 
 	<div id="view"></div>
-
+ -->
 
 </body>
 </html>
