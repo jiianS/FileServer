@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- mybatis가 읽어야할 부분이이기에- 아래 는 무조건 있어야함 -->
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="file">
+
+	<insert id="insert" parameterType="HashMap">
+	insert into files 
+		(boardNo, fileName, fileURL, userNo, regDate)
+	values
+		(#{boardNo},#{fileName},#{fileURL},#{userNo},DATE_FORMAT(NOW(),'%Y%m%d'))
+	
+	</insert>
+</mapper>
