@@ -13,7 +13,7 @@
 		파일 업로드 하기에는 무조건 작성해야함
 		(enctype="multipart/form-data" method="post")
 	-->
-	<form action="/FileUpload/file/" enctype="multipart/form-data" method="post">
+	<form action="http://gudi.iptime.org:10012/FileUpload/file" enctype="multipart/form-data" method="post">
 		<input type="file" name="file" id="file" multiple="multiple">
 		<br> <input type="submit" value="파일 업로드">
 	</form>
