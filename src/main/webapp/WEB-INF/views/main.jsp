@@ -5,7 +5,7 @@
 <title>Home</title>
 </head>
 <body>
-	<h1>Hello File Server!</h1>
+	<h1>Hello File Server!  gbgbgbgbg</h1>
 
 
 	<!-- bean에 추가한multipartResolver (파일 업로드) 하기 위해 쓰겠다
